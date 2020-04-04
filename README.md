@@ -17,5 +17,5 @@ The G suite domain of Kasetsart University (@ku.th) does not contain information
 ### Example User Info
 
 <p align="center">
-    <img src="https://github.com/peacher5/ku-microsoft-auth-demo/raw/assets/user_info.jpeg?raw=true" alt="Main screen" width="600" />
+    <img src="https://github.com/peacher5/ku-microsoft-auth-demo/raw/assets/user_info.jpeg?raw=true" alt="Main screen" width="540" />
 </p>
