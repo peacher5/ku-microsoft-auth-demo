@@ -1,8 +1,6 @@
 import firebase from '../services/firebase'
 import axios from 'axios'
 
-// const HOST_DOMAIN = 'ku.th'
-
 export const AUTH_STATE = {
   CHECKING: 'CHECKING',
   NOT_SIGNED_IN: 'NOT_SIGNED_IN',
