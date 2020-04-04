@@ -29,7 +29,13 @@ export default {
         const { user, additionalUserInfo, credential } = await firebase.auth().getRedirectResult()
 
         if (user) {
-          const photo = await this.getProfilePhoto(credential.accessToken)
+          let photo
+          try {
+            photo = await this.getProfilePhoto(credential.accessToken)
+          } catch (e) {
+            photo = null
+          }
+
           const { profile } = additionalUserInfo
 
           const userInfo = {
